@@ -4,7 +4,8 @@
 <title>Page Title</title>
 <link rel="stylesheet"
 	href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<link rel="stylesheet" href="css/meanmenu.css" />
+<link rel="stylesheet" href="css/meanmenu.css" media="all" />
+<link rel="stylesheet" href="css/nav.css" media="all" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script
 	src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -12,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
 	$(document).ready(function() {
-	$('nav').meanmenu();
+		$('nav').meanmenu();
 	});
 </script>
 
@@ -21,14 +22,17 @@
 	<div data-role="page" id="main" class="ui-responsive-panel">
 		<!-- /header -->
 		<div data-role="header">
-			<h1>Page Title</h1>
-			<nav>
-				<ul>
-					<li><a href="#">a</a></li>
-					<li><a href="#">b</a></li>
-					<li><a href="#">c</a></li>
-				</ul>
-			</nav>
+			<header>
+				<h1>hoge</h1>
+				<nav>
+					<ul>
+						<li><a href="#">A</a></li>
+						<li><a href="#">B</a></li>
+						<li><a href="#">C</a></li>
+						<li><a href="#">D</a></li>
+					</ul>
+				</nav>
+			</header>
 		</div>
 		<div role="main" class="ui-content">
 			<p>Page content goes here.</p>
@@ -40,7 +44,5 @@
 		<!-- /footer -->
 	</div>
 	<!-- /page -->
-
-
 </body>
 </html>
