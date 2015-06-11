@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Mobile page</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="themes/wachi-theme.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div data-role="page" id="page_a" data-title="pageA" data-theme="b">
+		<!-- /header -->
+		<div data-role="header">
+			<header>
+				<div data-role="navbar">
+						<ul>
+							<li><a href="#page_a">A</a></li>
+							<li><a href="#page_b">B</a></li>
+							<li><a href="#">C</a></li>
+							<li><a href="#">D</a></li>
+						</ul>
+				</div>
+			</header>
+		</div>
+		<div data-role="content" class="ui-content">
+			<p>
+				<a data-role="button">a</a>
+			</p>
+		</div>
+		<!-- /content -->
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+		<!-- /footer -->
+	</div>
+	<div data-role="page" id="page_b" data-title="pageB" data-theme="b">
+		<!-- /header -->
+		<div data-role="header">
+			<header>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#page_a">A</a></li>
+						<li><a href="#page_b">B</a></li>
+						<li><a href="#">C</a></li>
+						<li><a href="#">D</a></li>
+					</ul>
+				</div>
+			</header>
+		</div>
+		<div data-role="content" class="ui-content">
+			<p>Page content goes here.</p>
+		</div>
+		<!-- /content -->
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+		<!-- /footer -->
+	</div>
+	<!-- /page -->
+</body>
+</html>
